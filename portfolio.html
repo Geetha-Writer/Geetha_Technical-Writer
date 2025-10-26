@@ -2,68 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Portfoli1o</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      text-align: center;
-      color: #444;
-    }
-    .project {
-      margin-bottom: 20px;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | [Your Name]</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">My Resume</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="container">
-    <h1>Your Name</h1>
-    <p style="text-align:center;">Senior Technical Writer | Cybersecurity | 10+ Years Experience</p>
+  <main>
+    <section class="portfolio-grid">
+      <div class="card">
+        <h3>User Guide Example</h3>
+        <p>Created user documentation for SaaS product with installation steps.</p>
+        <a href="samples/UserGuideSample.pdf" target="_blank">View Sample</a>
+      </div>
+      <div class="card">
+        <h3>API Documentation</h3>
+        <p>Developed REST API guide for developers with request/response samples.</p>
+        <a href="samples/APIDocSample.pdf" target="_blank">View Sample</a>
+      </div>
+      <div class="card">
+        <h3>Validation Documents</h3>
+        <p>Authored URS, FRS, and SDS documentation for compliance-driven release.</p>
+        <a href="samples/ValidationDocSample.pdf" target="_blank">View Sample</a>
+      </div>
+    </section>
+  </main>
 
-    <h2>About Me</h2>
-    <p>
-      I am a technical writer with a decade of experience in documenting complex systems and tools, currently working in the cybersecurity domain. Skilled in RoboHelp, Confluence, Visio, and Snagit.
-    </p>
-
-    <h2>Portfolio Samples</h2>
-
-    <div class="project">
-      <h3>API Documentation Sample</h3>
-      <p>Created a detailed REST API documentation using Swagger and Markdown.</p>
-      <p><a href="#">View Sample</a></p>
-    </div>
-
-    <div class="project">
-      <h3>User Manual – Security Tool</h3>
-      <p>End-user documentation including installation, setup, and troubleshooting.</p>
-      <p><a href="#">View Sample</a></p>
-    </div>
-
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-  </div>
-
+  <footer>
+    <p>© 2025 [Your Name]</p>
+  </footer>
 </body>
 </html>
