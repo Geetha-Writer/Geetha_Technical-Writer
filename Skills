@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | [Your Name]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Skills</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">My Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <ul class="skills-list">
+        <li>Technical Documentation (User Guides, API Docs, SOPs)</li>
+        <li>Tools: Confluence, Jira, MS Word, Snagit, Draw.io</li>
+        <li>Knowledge: DSCSA, Serialization, EPCIS Compliance</li>
+        <li>Version Control: Git, GitHub</li>
+        <li>Writing Languages: HTML, Markdown, XML</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 [Your Name]</p>
+  </footer>
+</body>
+</html>
