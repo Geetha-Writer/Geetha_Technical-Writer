@@ -3,8 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume | [Geetha R]</title>
+  <title>My Resume | Geetha R</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    iframe {
+      width: 80%;
+      height: 600px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,17 +86,27 @@
 
   <main>
     <section>
-      <h2>Download My Resume</h2>
-      <p>You can download my full resume here:</p>
-      <a href="https://github.com/Geetha-Writer/Geetha_Technical-Writer/blob/main/Geetha%20R_Resume.pdf" target="_blank" class="btn">View / Download Resume</a>
+      <h2>View or Download My Resume</h2>
+      <p>You can view my full resume below or open it in a new tab.</p>
+
+      <!-- Working resume link using RAW GitHub URL -->
+      <a href="https://raw.githubusercontent.com/Geetha-Writer/Geetha_Technical-Writer/main/Geetha%20R_Resume.pdf" 
+         target="_blank" 
+         class="btn">
+        View / Download Resume
+      </a>
+
+      <!-- Embedded PDF preview -->
+      <iframe
+        src="https://raw.githubusercontent.com/Geetha-Writer/Geetha_Technical-Writer/main/Geetha%20R_Resume.pdf#view=FitH"
+        title="Geetha R Resume"
+        allow="fullscreen"
+      ></iframe>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 [Your Name]</p>
+    <p>© 2025 Geetha R</p>
   </footer>
 </body>
 </html>
-
-
-
