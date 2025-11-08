@@ -3,44 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <title>[Your Name] | Technical Writer Portfolio</title>
-=======
-  <title>[Your Name] | Technical Writer</title>
->>>>>>> 698630b9014b62c27befa06562817f043280f198
-=======
-  <title>[Geetha] | Technical Writer</title>
->>>>>>> fe9be3e7d382510b1493bc3290a0edcf239f7d9b
-=======
-  <title>[Geetha R] | Technical Writer</title>
->>>>>>> 7bda16705d2c682965251982df52bec599f3afbe
-=======
   <title>Geetha R | Technical Writer</title>
->>>>>>> 144778e71e579590b795ac5954db874b7b735242
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffd700;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      color: #004aad;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
 
-<<<<<<< HEAD
-  <!-- Header Section -->
   <header>
-    <img src="images/yourphoto.jpg" alt="Your Photo" class="profile-photo">
-    <h1>Hi, I'm [Your Full Name]</h1>
-    <p>Technical Writer | Documentation Specialist | Content Creator</p>
-    <nav>
-      <ul>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-=======
-  <header>
+    <!-- ✅ Make sure this image is uploaded to your GitHub repo -->
     <img src="images/Passport.jpg" alt="Geetha R" class="profile-photo">
-    <h1>Hi, I'm Geetha</h1>
+    <h1>Hi, I'm Geetha R</h1>
     <p>Technical Writer | Documentation Specialist | Content Strategist</p>
 
     <nav>
@@ -49,94 +96,28 @@
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="skills.html">My Skills</a></li>
         <li><a href="certifications.html">Certifications</a></li>
-<<<<<<< HEAD
->>>>>>> 698630b9014b62c27befa06562817f043280f198
-=======
-        <li><a href="Resume.html">My Resume</a></li> <!-- ✅ Fixed link -->
->>>>>>> 144778e71e579590b795ac5954db874b7b735242
+        <li><a href="Resume.html">My Resume</a></li>
       </ul>
     </nav>
   </header>
 
-<<<<<<< HEAD
-  <!-- Resume Section -->
-  <section id="resume">
-    <h2>My Resume</h2>
-    <p>You can view or download my resume here:</p>
-    <a href="docs/YourResume.pdf" target="_blank" class="btn">View Resume (PDF)</a>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Technical Documentation (User Guides, API Docs, SOPs)</li>
-      <li>Tools: Confluence, MadCap Flare, MS Word, Snagit, Jira, Draw.io</li>
-      <li>Domain Knowledge: SaaS, Compliance-driven software, DSCSA, EPCIS</li>
-      <li>Version Control: Git, GitHub</li>
-      <li>HTML, Markdown, and XML authoring</li>
-    </ul>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-      <div class="card">
-        <h3>User Guide Example</h3>
-        <p>Comprehensive documentation created for a SaaS product, covering installation and configuration steps.</p>
-        <a href="samples/UserGuideSample.pdf" target="_blank">View Sample</a>
-      </div>
-      <div class="card">
-        <h3>API Documentation</h3>
-        <p>Created REST API documentation with examples and authentication details using Swagger and Markdown.</p>
-        <a href="samples/APIDocSample.pdf" target="_blank">View Sample</a>
-      </div>
-      <div class="card">
-        <h3>Validation Document</h3>
-        <p>Developed URS, FRS, and SDS documents for compliance-driven product releases.</p>
-        <a href="samples/ValidationDocSample.pdf" target="_blank">View Sample</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Certifications Section -->
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul class="cert-list">
-      <li><strong>Certified Technical Writer</strong> – TechWriter Certification Institute (2024)</li>
-      <li><strong>API Documentation</strong> – Google Technical Writing Course (2023)</li>
-      <li><strong>Agile Documentation Practices</strong> – Coursera (2022)</li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    <p>💻 GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-  </section>
-
-  <!-- Footer -->
-=======
   <main>
     <section>
       <h2>Welcome!</h2>
       <p>
-        Accomplished and detail-oriented Technical Writer with a proven track record of creating clear, concise, and user-focused documentation for software products and enterprise applications.
-        Skilled in translating complex technical information into easily understandable content, including user manuals, API guides, release notes, and process documentation.
-        Adept at collaborating with cross-functional teams such as Product Management, Engineering, QA, and Compliance to ensure technical accuracy and consistency across deliverables.
-        Proficient in documentation tools like Confluence, Jira, Snagit, and Draw.io, with a strong understanding of software development lifecycles, version control, and quality standards.
-        Committed to delivering high-quality, structured documentation that enhances user experience and supports organizational objectives.
+        I’m an accomplished and detail-oriented <strong>Technical Writer</strong> with 9.5 years of experience creating clear, concise, and user-focused documentation for software products and enterprise applications. 
+        I specialize in simplifying complex technical concepts for diverse audiences, crafting user manuals, API documentation, release notes, and process guides that enhance understanding and usability.
       </p>
       <p>
-        Please explore my site to view my resume, writing portfolio, professional skills, and certifications.
+        I’m experienced in tools like <strong>Confluence, MadCap Flare, RoboHelp, SnagIt, and Oxygen XML</strong>, with a strong grasp of <strong>SDLC, DDLC, and Agile</strong> processes. 
+        Collaboration, precision, and quality are the hallmarks of my work.
+      </p>
+      <p>
+        Please explore my site to view my <a href="Resume.html">resume</a>, <a href="portfolio.html">portfolio</a>, <a href="skills.html">skills</a>, and <a href="certifications.html">certifications</a>.
       </p>
     </section>
   </main>
 
->>>>>>> 698630b9014b62c27befa06562817f043280f198
   <footer>
     <p>© 2025 Geetha R | Built with ❤️ using GitHub Pages</p>
   </footer>
