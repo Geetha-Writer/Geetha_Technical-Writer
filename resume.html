@@ -3,8 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume | [Geetha R]</title>
+  <title>My Resume | Geetha R</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #004aad;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    /* ✅ Stylish Buttons */
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      margin: 10px;
+    }
+
+    .btn-view {
+      background-color: #004aad;
+      color: white;
+    }
+
+    .btn-view:hover {
+      background-color: #0066ff;
+      transform: translateY(-2px);
+    }
+
+    .btn-download {
+      background-color: #198754;
+      color: white;
+    }
+
+    .btn-download:hover {
+      background-color: #28a745;
+      transform: translateY(-2px);
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: 1px solid #ccc;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -15,23 +112,38 @@
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="Resume.html">My Resume</a></li> <!-- ✅ Make sure this is NOT the PDF link -->
       </ul>
     </nav>
   </header>
 
   <main>
     <section>
-      <h2>Download My Resume</h2>
-      <p>You can download my full resume here:</p>
-      <a href="https://github.com/Geetha-Writer/Geetha_Technical-Writer/blob/main/Geetha%20R_Resume.pdf" target="_blank" class="btn">View / Download Resume</a>
+      <h2>Download or View My Resume</h2>
+      <p>You can view my resume online or download a copy below:</p>
+
+      <!-- ✅ Two separate buttons -->
+      <a href="https://geetha-writer.github.io/Geetha_Technical-Writer/Geetha%20R_Resume.pdf"
+         target="_blank"
+         class="btn btn-view">
+         🧾 View Resume
+      </a>
+
+      <a href="https://geetha-writer.github.io/Geetha_Technical-Writer/Geetha%20R_Resume.pdf"
+         download="Geetha_R_Resume.pdf"
+         class="btn btn-download">
+         ⬇️ Download Resume
+      </a>
+
+      <!-- Embedded Resume Preview -->
+      <iframe 
+        src="https://geetha-writer.github.io/Geetha_Technical-Writer/Geetha%20R_Resume.pdf">
+      </iframe>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 [Your Name]</p>
+    <p>© 2025 Geetha R</p>
   </footer>
 </body>
 </html>
-
-
-
